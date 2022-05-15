@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Person">
+      <UniqueIdentifier>{fd395221-7af0-4977-906b-627f93f672d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flat">
+      <UniqueIdentifier>{ca2d7878-360e-45ca-b39e-ab06ecfc5afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="House">
+      <UniqueIdentifier>{813eb770-0cb4-405c-ad91-99a35c31b68c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Class_House.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Flat.cpp">
+      <Filter>Flat</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>House</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Flat.h">
+      <Filter>Flat</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>House</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
